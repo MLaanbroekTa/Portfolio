@@ -1,3 +1,7 @@
+baseurl: "Portfolio/"
+url: https://mlaanbroekta.github.io
+
+# Jekyll configuration file for Portfolio Maurits Laanbroek
 title: Portfolio Maurits Laanbroek
 author: Maurits Laanbroek
 url: https://mlaanbroekta.github.io/Portfolio/ # root address of the site
