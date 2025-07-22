@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" class="html" data-theme="dark"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    
+      Anvil Pipeline core nodes
+    
+  </title>
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Anvil Pipeline core nodes" />
+<meta name="author" content="Ubisoft Mtl" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="At Ubisoft I assisted in the development of a new Anvil &lt;&gt; Houdini pipeline using USD. The goal was to rebuild the procedural pipeline to improve performance and make use of the USD file format. The main pipeline design was done by a larger team and the design on the Houdini side with a smaller sub-team. My task in this was to implement the Nodes on the Houdini side, getting and sending data according to the decided design. Throughout the process Features were changed or added based on user feedback." />
+<meta property="og:description" content="At Ubisoft I assisted in the development of a new Anvil &lt;&gt; Houdini pipeline using USD. The goal was to rebuild the procedural pipeline to improve performance and make use of the USD file format. The main pipeline design was done by a larger team and the design on the Houdini side with a smaller sub-team. My task in this was to implement the Nodes on the Houdini side, getting and sending data according to the decided design. Throughout the process Features were changed or added based on user feedback." />
+<link rel="canonical" href="http://localhost:4000/Professional/AP.html" />
+<meta property="og:url" content="http://localhost:4000/Professional/AP.html" />
+<meta property="og:site_name" content="Portfolio Maurits Laanbroek" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-01-01T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Anvil Pipeline core nodes" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Ubisoft Mtl"},"dateModified":"2021-01-01T00:00:00+00:00","datePublished":"2021-01-01T00:00:00+00:00","description":"At Ubisoft I assisted in the development of a new Anvil &lt;&gt; Houdini pipeline using USD. The goal was to rebuild the procedural pipeline to improve performance and make use of the USD file format. The main pipeline design was done by a larger team and the design on the Houdini side with a smaller sub-team. My task in this was to implement the Nodes on the Houdini side, getting and sending data according to the decided design. Throughout the process Features were changed or added based on user feedback.","headline":"Anvil Pipeline core nodes","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Professional/AP.html"},"url":"http://localhost:4000/Professional/AP.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Portfolio Maurits Laanbroek" />
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Favicon -->
+
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  
+    <script type="text/javascript">
+  window.addEventListener('load', themeChange);
+  const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+  if (currentTheme)
+    document.documentElement.setAttribute('data-theme', currentTheme);
+
+  function themeChange() {
+    let button = document.querySelector('.theme-toggle');
+
+    button.addEventListener('click', function (e) {
+      let currentTheme = document.documentElement.getAttribute('data-theme');
+      if (currentTheme === 'dark') {
+        transition();
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+      } else {
+        transition();
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    });
+
+    let transition = () => {
+      document.documentElement.classList.add('transition');
+      window.setTimeout(() => {
+        document.documentElement.classList.remove('transition');
+      }, 1000);
+    }
+  }
+</script>
+
+
+  
+</head>
+<body>
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        
+  <ul class="horizontal-list">
+  
+    <li>
+      
+        <h1>
+          <a href="../index">
+            Home
+          </a>
+        </h1>
+      
+    </li>
+  
+    <li>
+      
+        <h1>
+          <a href="../CV">
+            CV
+          </a>
+        </h1>
+      
+    </li>
+  
+  
+  <li>
+    <h3><a href="ubisoft.html">Back...</a></h3>
+  </li>
+  
+</ul>
+
+
+
+<h1 class="post-title">Anvil Pipeline core nodes</h1>
+<p class="post-date text-bold">
+  
+    <span class="text-upcase">Ubisoft Mtl</span> / 
+  
+  
+    <span class="text-upcase">January 2021</span>
+  
+
+
+</p>
+
+
+  <div class="">
+    
+    <span class="tag">Ubisoft</span>
+    
+    <span class="tag">Tools</span>
+    
+    <span class="tag">Professional</span>
+    
+    <span class="tag">USD</span>
+    
+  </div>
+
+
+<p>At Ubisoft I assisted in the development of a new Anvil &lt;&gt; Houdini pipeline using USD. The
+goal was to rebuild the procedural pipeline to improve performance and make use of the
+USD file format. The main pipeline design was done by a larger team and the design on the
+Houdini side with a smaller sub-team. My task in this was to implement the Nodes on the
+Houdini side, getting and sending data according to the decided design. Throughout the
+process Features were changed or added based on user feedback.</p>
+
+<h2 id="node-specifics">Node specifics</h2>
+<p>Key points for the implementation were. Stability, Performance, Maintainability, User friendly.</p>
+
+<ul>
+  <li>Maintainability in this case was to make sure other people in the future could take over
+maintain the nodes, without too much head scratching. Clear node layouts per
+task/cluster, descriptive naming and commenting where needed.</li>
+  <li>User friendly, is simply the end user experience. Doing all the hard complex work
+automatically. Some examples are:
+    <ul>
+      <li>Handles all of the data conversions, chancing vector orders, splitting array data
+back to arrays.</li>
+      <li>Extracting Tool settings and converting them to a usable mesh/data format.
+Converting spline data from simple points to the correct spline type that matches
+the spline shape in Engine.</li>
+      <li>Mesh/Entity cleanup options for better performance. But also a consistent UI
+throughout all the Core nodes. For all the import and export nodes.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="../assets/images/ubisoft/Get_Entities.png" alt="Node graph" />
+<img src="../assets/images/ubisoft/Get_usd.png" alt="Node graph" />
+– <em>Node Graphs.</em></p>
+
+<p><img src="../assets/images/ubisoft/Get_usd_parms.png" alt="UI" />
+– <em>UI for Basic Get node.</em></p>
+
+<h2 id="documentation">Documentation</h2>
+<p>Together with the development of the nodes I kept a detailed set of Confluence pages
+detailing the inner functions of each node to help future developers to maintain the nodes.
+And separate Confluence pages going over all the features and user interface. In addition to
+multiple beginner tutorials on how to use the new pipeline. Exporting data to Houdini,
+Importing in Houdini and then exporting data back to the Engine. Each node also has
+embedded help Wiki’s like normal Houdini nodes.
+<img src="../assets/images/ubisoft/Get_Usd_wiki.png" alt="Wiki" />
+– <em>Internal help wiki for one Get node.</em></p>
+
+
+        
+          <button title="Toggle Theme" class="theme-toggle">
+  <svg viewBox="0 0 32 32" width="24" height="24" fill="currentcolor">
+    <circle cx="16" cy="16" r="14" fill="none" stroke="currentcolor" stroke-width="4"></circle>
+    <path d="
+             M 16 0
+             A 16 16 0 0 0 16 32
+             z">
+    </path>
+  </svg>
+</button>
+
+        
+        <div class="credits">&copy;&nbsp;2025&nbsp;Maurits Laanbroek
+          &nbsp;
+          •
+          &nbsp;Theme&nbsp; <a href="https://github.com/abhinavs/moonwalk" target="_blank" rel="noreferrer">Moonwalk</a>
+        </div>
+      </div>
+    </main>
+
+
+  </body>
+</html>
