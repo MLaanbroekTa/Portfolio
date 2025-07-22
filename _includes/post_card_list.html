@@ -1,0 +1,35 @@
+
+<ul class="horizontal-list">
+  {% assign count = 0 %}
+  {% for item in include.collection %}
+    {% if item.tags contains include.tag or include.tag == nil %}
+        {% if item.categories contains include.tag2 or item.tags contains include.tag2 or include.tag2 == nil %}
+        <li class="card">
+          <a href="{{ item.url }}">
+            <span class="header">
+              {{ item.title }}
+
+              {% if item.highlight %}
+                <mark>{{ item.highlight }}</mark>
+
+              {% endif %}
+            </span>
+
+            <hr />
+            
+            {% if item.desc != false %}
+            <p class="body">
+              <img class="card" src="{{ item.imgpath }}{{ item.logo }}" width="75%">
+              {{ item.desc }}
+            </p>
+            {% endif %}
+          </a>
+        </li>
+        {% assign count = count | plus: 1 %}
+        {% if include.limit > 0 and count >= include.limit %}
+          {% break %}
+        {% endif %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</ul>

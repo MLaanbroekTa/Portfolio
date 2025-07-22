@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+{% include horizontal_list.html collection=site.data.home.navbar_entries header="h1" %}
+<div class="dashed"></div>
+
+
+<h1 class="post-title">{{ page.title }}</h1>
+{{ content }}
+
+<h2>Fun</h2>
+{% include post_card_list.html collection=site.categories.nonWork tag="Fun" %}
+
+<h2>Tools, utilities and others</h2>
+{% include post_card_list.html collection=site.categories.nonWork tag="Tools" tag2="Personal" %}
+
+<h3>Game jam</h3>
+{% include post_card_list.html collection=site.categories.nonWork tag="GameJam" %}
+

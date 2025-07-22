@@ -1,0 +1,22 @@
+<ul class="horizontal-list">
+  {% for item in include.collection %}
+    <li>
+      {% if include.header != nil %}
+        <{{ include.header}}>
+          <a href="{{ item.url }}">
+            {{ item.title }}
+          </a>
+        </{{ include.header}}>
+      {% else %}
+        <a href="{{ item.url }}">
+          {{ item.title }}
+        </a>
+      {% endif %}
+    </li>
+  {% endfor %}
+  {% if include.back != nill %}
+  <li>
+    <h3><a href="{{ include.back }}">Back...</a></h3>
+  </li>
+  {% endif %}
+</ul>

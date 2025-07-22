@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<header>
+
+  <style>
+        .container {
+            display: flex;
+            /* Enables flexbox layout */
+        }
+
+        .column {
+            flex: 2;
+            /* Each column takes up 
+          an equal amount of space */
+            padding: 10px;
+            /* Adds padding inside each column */
+        }
+        .columnSide {
+            flex: 1;
+            /* Each column takes up 
+          an equal amount of space */
+            padding: 10px;
+            /* Adds padding inside each column */
+        }
+  </style>
+
+
+
+  {% if site.theme_config.show_navbar == true %}
+    {% include horizontal_list.html collection=site.data.home.navbar_entries header="h1" %}
+    <div class="dashed"></div>
+    
+  {% endif %}
+</header>
+
+<div class="container">
+  <div class="column">
+      {{ content}}
+  </div>
+  <div class="columSide">
+    {% capture m %}{% include contact.md %}{% endcapture %}
+    {{ m | markdownify }}
+  </div>
+</div>

@@ -1,0 +1,58 @@
+title: Portfolio Maurits Laanbroek
+author: Maurits Laanbroek
+url: https://mlaanbroekta.github.io/Portfolio/ # root address of the site
+description: > # description of the site (multiple lines allowed)
+  A technical artist specialized in procedural tools creation with
+  8+ years’ experience working on multiple big triple A games from Assassin greed to Farcry
+  and assisting with development of procedural USD based pipelines from the Houdini's side.
+  Practical problem solver and taking pride in making fast, stable and user-friendly tools.
+
+permalink: /:slug
+
+favicon: "./logo.png" # relative path to site's favicon
+
+#theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
+remote_theme: abhinavs/moonwalk
+
+collections:
+  companies:
+    output: true
+    ubisoft:
+      - name: ubisoft
+    lightspeed:
+      - name: lightspeed
+    personal:
+      - name: Personal
+    school:
+      - name: School
+   
+
+theme_config:
+  appearance: "dark" # can be "light", "dark" or "auto"
+  appearance_toggle: true # if appearance can be switched by user
+  back_home_text: "Home" # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: true # show blog description
+  show_navbar: true # show horizontal navbar
+  show_footer: false # show footer links in home page,add in _data/home.yml
+  show_copyright: true # show copyright notice in footer
+  # following keys are using to create home layout
+  show_Professional: true # show blog posts added in _posts
+  show_personal: true # show blog posts added in _posts
+  show_reading_time: false # show number of words and reading time in the blog posts
+  show_tags: true # show tags in a blog posts
+  # options for "home" page
+  home:
+    title_work: Professional projects
+    title_misc_list: Details
+    title_Professional: Professional
+    title_personal: Personal and school
+
+highlighter: rouge
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

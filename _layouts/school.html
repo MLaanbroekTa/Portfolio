@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% include horizontal_list.html collection=site.data.home.navbar_entries header="h1" %}
+<div class="dashed"></div>
+
+
+<h1 class="post-title">{{ page.title }}</h1>
+{{ content }}
+
+<h2>Masters</h2>
+{% include post_card_list.html collection=site.categories.nonWork tag="Masters" %}
+
+<h2>Bachelor</h2>
+{% include post_card_list.html collection=site.categories.nonWork tag="Bachelor" %}
+
+<h3>Internship</h3>
+{% include post_card_list.html collection=site.categories.nonWork tag="Internship" %}
+
+<h3>Game Lab</h3>
+{% include post_card_list.html collection=site.categories.nonWork tag="GameLab" %}
+

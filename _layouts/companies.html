@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% include horizontal_list.html collection=site.data.home.navbar_entries header="h1" %}
+<div class="dashed"></div>
+
+
+<h1 class="post-title">{{ page.title }}</h1>
+
+<h2>Highlight</h2>
+{% if site.theme_config.show_Professional == true %}
+  {% include post_card_list.html collection=site.categories.work tag=page.company tag2="highlight" limit=2 %}
+{% endif %}
+
+{{ content }}
+
+<hr>
+<h2> All Projects </h2>
+{% if site.theme_config.show_Professional == true %}
+  {% include post_card_list.html collection=site.categories.work tag=page.company %}
+{% endif %}
