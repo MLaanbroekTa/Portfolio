@@ -3,12 +3,12 @@
     <li>
       {% if include.header != nil %}
         <{{ include.header}}>
-          <a href="{{ item.url | relative_url}}">
+          <a href="{{ item.url | absolute_url}}">
             {{ item.title }}
           </a>
         </{{ include.header}}>
       {% else %}
-        <a href="{{ item.url | relative_url}}">
+        <a href="{{ item.url | absolute_url}}">
           {{ item.title }}
         </a>
       {% endif %}
@@ -16,7 +16,7 @@
   {% endfor %}
   {% if include.back != nill %}
   <li>
-    <h3><a href="{{ include.back | relative_url}}">Back...</a></h3>
+    <h3><a href="{{ include.back | absolute_url}}">Back...</a></h3>
   </li>
   {% endif %}
 </ul>
