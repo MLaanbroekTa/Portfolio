@@ -6,7 +6,7 @@ permalink: /Education/:title:output_ext
 desc: Game for the Pillo game controller
 logo: pilloPult2.jpg
 title: Pillow Pult
-imgpath: ../assets/images/education/
+imgpath: assets/images/education/
 categories: nonWork
 back: school.html
 

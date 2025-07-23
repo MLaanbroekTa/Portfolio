@@ -6,7 +6,7 @@ permalink: /Professional/:title:output_ext
 desc: 
 logo: ../logo/Ubisoft.png
 title: Ubisoft 	
-imgpath: ../assets/images/ubisoft/
+imgpath: assets/images/ubisoft/
 company: Ubisoft
 ---
 

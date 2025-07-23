@@ -6,7 +6,7 @@ permalink: /Education/:title:output_ext
 desc: A procedural project in recreating a art style using Houdini
 logo: artGen1.png
 title: Suprematism art generator
-imgpath: ../assets/images/education/
+imgpath: assets/images/education/
 categories: nonWork
 back: school.html
 

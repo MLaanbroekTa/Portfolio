@@ -6,7 +6,7 @@ permalink: /Education/:title:output_ext
 desc: Graduation project of my Bachelor 
 logo: dungeonGen.png
 title: Graduation project, Procedural dungeon gen
-imgpath: ../assets/images/education/
+imgpath: assets/images/education/
 categories: nonWork
 back: school.html
 

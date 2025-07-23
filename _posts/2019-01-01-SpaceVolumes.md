@@ -6,7 +6,7 @@ permalink: /Professional/:title:output_ext
 desc: Create valumes inside of buildings for sound distortion
 logo: Space_sections_1.jpg
 title: Space volumes detection
-imgpath: ../assets/images/ubisoft/
+imgpath: assets/images/ubisoft/
 categories: work
 back: ubisoft.html
 ---

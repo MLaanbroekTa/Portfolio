@@ -6,7 +6,7 @@ permalink: /Professional/:title:output_ext
 desc: Lightspeed procedural pipeline.
 logo: ../logo/Lightspeed.png
 title: Lightspeed procedural pipeline
-imgpath: ../assets/images/lightspeed/
+imgpath: assets/images/lightspeed/
 categories: [work, highlight]
 back: lightspeed.html
 

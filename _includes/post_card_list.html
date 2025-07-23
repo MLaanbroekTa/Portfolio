@@ -5,7 +5,7 @@
     {% if item.tags contains include.tag or include.tag == nil %}
         {% if item.categories contains include.tag2 or item.tags contains include.tag2 or include.tag2 == nil %}
         <li class="card">
-          <a href="{{ item.url | absolute_url}}">
+          <a href="{{ item.url | relative_url}}">
             <span class="header">
               {{ item.title }}
 
@@ -19,7 +19,7 @@
             
             {% if item.desc != false %}
             <p class="body">
-              <img class="card" src="{{ item.imgpath |absolute_url }}{{ item.logo }}" width="75%">
+              <img class="card" src="{{ item.imgpath | relative_url }}{{ item.logo }}" width="75%">
               {{ item.desc }}
             </p>
             {% endif %}

@@ -1,7 +1,7 @@
 navbar_entries:
   - title: Home
-    url: ../index 
+    url: index 
   - title: CV
-    url: ../CV
+    url: CV
 
 footer_entries:

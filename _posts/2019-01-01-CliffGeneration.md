@@ -6,7 +6,7 @@ permalink: /Professional/:title:output_ext
 desc: Cliff generation and terrain stitching
 logo: Cliffs_2.jpg
 title: Cliff generation
-imgpath: ../assets/images/ubisoft/
+imgpath: assets/images/ubisoft/
 categories: work
 back: ubisoft.html
 ---

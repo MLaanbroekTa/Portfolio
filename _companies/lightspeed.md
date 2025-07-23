@@ -6,7 +6,7 @@ permalink: /Professional/:title:output_ext
 desc: 
 logo: ../logo/Lightspeed.png
 title: Lightspeed studios
-imgpath: ../assets/images/lightspeed/
+imgpath: assets/images/lightspeed/
 company: Lightspeed
 ---
 # Overview

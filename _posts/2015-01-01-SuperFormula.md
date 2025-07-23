@@ -6,7 +6,7 @@ permalink: /Personal/:title:output_ext
 desc: Super formula  driven by music
 logo: superFormula.png
 title: Music driven super formula 
-imgpath: ../assets/images/Personal/
+imgpath: assets/images/Personal/
 categories: nonWork
 back: personal.html
 

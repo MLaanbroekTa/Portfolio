@@ -6,7 +6,7 @@ permalink: /Education/:title:output_ext
 desc: An interactive light art piece in Tilburg
 logo: pilloPult2.jpg
 title: BlewScreen Interactive light art
-imgpath: ../assets/images/education/
+imgpath: assets/images/education/
 categories: nonWork
 back: school.html
 

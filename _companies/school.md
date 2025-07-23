@@ -6,7 +6,7 @@ permalink: /Education/:title:output_ext
 desc: School and internship projects
 logo: ../logo/pilloPult2.jpg
 title: School projects
-imgpath: ../assets/images/education/
+imgpath: assets/images/education/
 company: School projects
 ---
 I followed the 4 year Indie game dev program at Buas at the time also called (NHTV)

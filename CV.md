@@ -1,7 +1,7 @@
 ---
 layout: CV
 title: CV
-imgpath: ../assets/images/
+imgpath: assets/images/
 ---
 - PDF: [CV-MLaanbroek_2025.pdf]({{ page.imgpath }}CV-MLaanbroek_2025.pdf){:target="_blank"}
 
