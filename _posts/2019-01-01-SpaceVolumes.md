@@ -17,7 +17,7 @@ The algorithm takes the entity and tries to detect the rough interior shapes. af
 - 2 cubes next to each other get fused into one.
 Afterwards it detects portals, like windows and doors and places special volumes there.
 
-![Volumes]({{ page.imgpath }}Space_sections_1.jpg)
+![Volumes]({{ page.imgpath | relative_url }}Space_sections_1.jpg)
 -- *House model*
-![Mesh]({{ page.imgpath }}Space_sections_2.jpg)
+![Mesh]({{ page.imgpath | relative_url }}Space_sections_2.jpg)
 -- *Interior volume results*

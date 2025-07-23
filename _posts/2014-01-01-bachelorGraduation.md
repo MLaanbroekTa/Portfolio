@@ -24,7 +24,7 @@ The generator for Houdini and Unity are separate tools, but both work in the sam
 For the generator I use the main principle of classical dungeon generators like the ones used in Roque and Roque likes for creating single floor 3d dungeons. While the dungeon is mostly generated automatically the user has control over the level flow, room density, location and more. Users can also add additional rooms and corridors to the design.  
   
 > For more detail check the documentation:
-> 	- [Graduation_Report_101110_Maurits_Laanbroek.pdf]({{ page.imgpath }}Graduation_Report_101110_Maurits_Laanbroek.pdf){:target="_blank"}
+> 	- [Graduation_Report_101110_Maurits_Laanbroek.pdf]({{ page.imgpath | relative_url }}Graduation_Report_101110_Maurits_Laanbroek.pdf){:target="_blank"}
 
 {% include youtubePlayer.html id=page.youtubeId.id1 %}
 {% include youtubePlayer.html id=page.youtubeId.id2 %}

@@ -21,14 +21,14 @@ Towards the end I switched to the Anvil pipeline team to assist in development o
 Some other tools I worked on at Ubisoft include.
 - **Fences**
     Places fences along a artist drawn spline. Fences needed to generate a continues looking fences but also work on slopes while now allowing for excessive rotation along the horizontal axis.
-    ![Fence]({{ page.imgpath }}fence.jpg)
+    ![Fence]({{ page.imgpath | relative_url }}fence.jpg)
 - **Terrain flow map**
     Calculate the terrain flow map used by other system.
     The original system was lower resolution then needed, the main goal was to make it hight resolution while improving or keeping the cooking time the same.
 - **Staling zones**
     Special areas with dense bushes for the player to hide in.
     The bush entities need form a clear border that follows the input curve, on top of regulating density for a dense feel without adding too many entities.
-    ![Staking zone]({{ page.imgpath }}StakingZone.jpg)
+    ![Staking zone]({{ page.imgpath | relative_url }}StakingZone.jpg)
 - **Rock collision**
     A 3Ds max tool to convert a Lod 0 rock model into a valid collision mesh. The mesh needed to closely follow the original shape, be efficient in poly use but also have specific game play related features to assist in climbing. For example a 1m strip below ledges with a special No-Clim collision.
 - **Waterfalls**

@@ -3,7 +3,7 @@ layout: CV
 title: CV
 imgpath: assets/images/
 ---
-- PDF: [CV-MLaanbroek_2025.pdf]({{ page.imgpath }}CV-MLaanbroek_2025.pdf){:target="_blank"}
+- PDF: [CV-MLaanbroek_2025.pdf]({{ page.imgpath | relative_url }}CV-MLaanbroek_2025.pdf){:target="_blank"}
 
 # Work experience:
 #### Lightspeed studios

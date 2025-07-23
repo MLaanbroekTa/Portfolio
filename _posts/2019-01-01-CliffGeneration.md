@@ -18,7 +18,7 @@ Automatically place cliff and rocks on steep terrain areas based on user defined
 - Blend terrain with rocks for smooth transition
 - Only rotate along the vertical axis for game play.
 
-![Stiching]({{ page.imgpath }}CLiffs_jeryce-dianingana-09.jpg)
+![Stiching]({{ page.imgpath | relative_url }}CLiffs_jeryce-dianingana-09.jpg)
 -- *Terrain blending in to cliffs with stitching. Img By Jeryce Dianingana*
-![Cliff]({{ page.imgpath }}Cliffs_2.jpg)
+![Cliff]({{ page.imgpath | relative_url }}Cliffs_2.jpg)
 -- *World example of generated cliffs*
