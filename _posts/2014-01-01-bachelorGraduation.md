@@ -8,7 +8,7 @@ logo: dungeonGen.png
 title: Graduation project, Procedural dungeon gen
 imgpath: assets/images/education/
 categories: nonWork
-back: school.html
+back: /Education/school.html
 
 youtubeId: 
     id0: uLiHWJP-GBg

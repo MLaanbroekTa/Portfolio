@@ -8,7 +8,7 @@ logo: ../logo/Lightspeed.png
 title: Lightspeed procedural pipeline
 imgpath: assets/images/lightspeed/
 categories: [work, highlight]
-back: lightspeed.html
+back: /Professional/lightspeed.html
 
 youtubeId: 
     id0: 94J3e8yTW1w

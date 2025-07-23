@@ -8,7 +8,7 @@ logo: comicReader.png
 title: Web comic reader
 imgpath: assets/images/Personal/
 categories: nonWork
-back: personal.html
+back: /Personal/personal.html
 
 ---
 

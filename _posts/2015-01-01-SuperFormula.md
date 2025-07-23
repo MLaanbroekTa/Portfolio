@@ -8,7 +8,7 @@ logo: superFormula.png
 title: Music driven super formula 
 imgpath: assets/images/Personal/
 categories: nonWork
-back: personal.html
+back: /Personal/personal.html
 
 youtubeId: 
     id0: rW1ew_83vAY

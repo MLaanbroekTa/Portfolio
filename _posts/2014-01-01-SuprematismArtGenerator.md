@@ -8,7 +8,7 @@ logo: artGen1.png
 title: Suprematism art generator
 imgpath: assets/images/education/
 categories: nonWork
-back: school.html
+back: /Education/school.html
 
 ---
 The generator creates random pieces of Supremacism is an art movement from the 1913 by Kazimir Malevich. And was interested in abstraction in their search for ‘zero degree’ of painting. The point on which the medium could not go without ceasing to be art.  

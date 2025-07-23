@@ -8,7 +8,7 @@ logo: pilloPult2.jpg
 title: BlewScreen Interactive light art
 imgpath: assets/images/education/
 categories: nonWork
-back: school.html
+back: /Education/school.html
 
 youtubeId: 
     id0: 4t_iqf_GEWY

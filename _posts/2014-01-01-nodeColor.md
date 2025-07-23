@@ -8,7 +8,7 @@ logo: nodeColour.png
 title: Colour nodes by name
 imgpath: assets/images/Personal/
 categories: nonWork
-back: personal.html
+back: /Personal/personal.html
 
 youtubeId: 
     id0: rW1ew_83vAY

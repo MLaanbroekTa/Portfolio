@@ -8,7 +8,7 @@ logo: Cliffs_2.jpg
 title: Cliff generation
 imgpath: assets/images/ubisoft/
 categories: work
-back: ubisoft.html
+back: /Professional/ubisoft.html
 ---
 
 Automatically place cliff and rocks on steep terrain areas based on user defined cliff sets. Making sure they don't trap players but also look nice. This is followed by blending the terrain with the procedural and manual placed rocks for a better transition between terrain and rocks.

@@ -8,7 +8,7 @@ logo: Space_sections_1.jpg
 title: Space volumes detection
 imgpath: assets/images/ubisoft/
 categories: work
-back: ubisoft.html
+back: /Professional/ubisoft.html
 ---
 
 The sounds team uses volumes to modify the sounds. Making a stone room sound different then a wooden one, etc. These volumes where originally placed by hand trough a clunky interface. The request was to have a tool that could be run on an entity and generate volumes for them.  These did not have to be perfect but the closer the better. This way they only had to check and make small tweaks, speeding up their work.

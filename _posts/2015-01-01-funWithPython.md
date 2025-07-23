@@ -8,7 +8,7 @@ logo: funWithPython.png
 title: Some fun with python
 imgpath: assets/images/Personal/
 categories: nonWork
-back: personal.html
+back: /Personal/personal.html
 
 youtubeId: 
     id0: LxY6ugl54yU
