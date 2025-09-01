@@ -23,5 +23,5 @@ Email: m.laanbroek@gmail.com
 - English
 
 #### Basic
-- Frensh
+- French
 - German
