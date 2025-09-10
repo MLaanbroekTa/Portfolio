@@ -6,7 +6,7 @@ permalink: /Personal/:title:output_ext
 desc: A unfinished web comic reader.
 logo: comicReader.png
 title: Web comic reader
-imgpath: assets/images/Personal/
+imgpath: assets/images/personal/
 categories: nonWork
 back: /Personal/personal.html
 
