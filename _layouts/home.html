@@ -17,6 +17,21 @@ layout: default
 
 {{ content }}
 
+<h2>Recent work</h2>
+<ul class="horizontal-list">
+  <li class="card">
+    <a href="/Personal/Material.html">
+      <span class="header">Materials</span>
+
+      <hr />
+    
+      <p class="body">
+        <img class="card" src="/assets/images/Materials/BuildingShaders.png" width="75%">
+      </p>
+    </a>
+  </li>
+</ul>
+ 
 {% if site.theme_config.show_Professional == true %}
   <h2>{{ site.theme_config.home.title_Professional }}</h2>
   {% include post_card_list.html collection=site.companies tag="Professional" %}

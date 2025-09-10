@@ -6,7 +6,7 @@ permalink: /Personal/:title:output_ext
 desc: Houdini shelf tool
 logo: nodeColour.png
 title: Colour nodes by name
-imgpath: assets/images/Personal/
+imgpath: assets/images/personal/
 categories: nonWork
 back: /Personal/personal.html
 

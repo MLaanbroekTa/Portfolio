@@ -6,7 +6,7 @@ permalink: /Personal/:title:output_ext
 desc: Some fun with python
 logo: funWithPython.png
 title: Some fun with python
-imgpath: assets/images/Personal/
+imgpath: assets/images/personal/
 categories: nonWork
 back: /Personal/personal.html
 
